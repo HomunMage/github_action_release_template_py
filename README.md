@@ -1,16 +1,26 @@
-# github_action_py_build_template
+# GitHub Action Release Template for Python
 
-A github action template to build and release automatically
+This repository provides a GitHub Action template to automatically build and release Python applications.
 
-## env
-* ubuntu-latest
-* windows-latest
-* macos-latest
+## Supported Environments
 
-## build
-the build tool is pyinstaller
+The following environments are supported for building and releasing:
 
+- `ubuntu-latest`
+- `windows-latest`
+- `macos-latest`
 
-## pyside
+## Build and Release Process
 
-need hook
+To create a new release, follow these steps:
+
+1. Go to the [Releases](../../releases) page of your repository.
+2. Click on `Draft a new release`.
+3. Follow the prompts to create and publish the release.
+
+The build tool used in this template is `pyinstaller`, which packages Python applications into stand-alone executables.
+
+## PySide Branch
+
+For projects using PySide, please refer to the `pyside` branch of this repository.
+
